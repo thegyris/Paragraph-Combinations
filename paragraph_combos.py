@@ -50,7 +50,7 @@ for i in range(0,n_para):
         para_list[i].append(split_data[total_num])
         total_num = total_num + 1
 
-#Calculate repear number for each paragraph
+#Calculate repeat number for each paragraph
 calc_times = []
 for i in range(len(n_versions),0,-1):
     if i == len(n_versions):
